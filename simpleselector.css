@@ -1,0 +1,22 @@
+#one{
+    color:blueviolet;
+    
+}
+.two{
+    color: green;
+    
+}
+h1{
+    color:orangered;
+    
+}
+p{
+    color:brown;
+   
+}
+h1,#ine,.two,p{
+    background-color:lavender;
+}
+*{
+    background-color: blanchedalmond;
+}
