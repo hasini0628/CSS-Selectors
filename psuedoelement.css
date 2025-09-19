@@ -1,0 +1,17 @@
+p::first-letter{
+    color:palegreen;
+    font-size:xx-large;
+}
+p::first-line{
+    color:violet;
+}
+p::selection{
+    color:blueviolet;
+    background-color: bisque;
+}
+p::before{
+    content:"😎";
+}
+p::after{
+    content:"👍"
+}
