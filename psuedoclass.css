@@ -1,0 +1,39 @@
+a:link{
+    color:black;
+}
+a:hover{
+    color:aqua;
+}
+a:visited{
+    color:palevioletred;
+}
+a:active{
+    color:blueviolet
+}
+a:focus{
+    color:gold;
+}
+h1:hover{
+    color:orange;
+    background-color: greenyellow;
+}
+input:focus{
+    color:blueviolet;
+    background-color: aquamarine;
+}
+div>p:first-child{
+    color:darkorchid;
+    background-color: bisque;
+}
+div>p:last-child{
+    color:bisque;
+    background-color: darkorchid;
+}
+div>p:nth-child(3){
+    color:brown;
+    background-color:palegoldenrod ;
+}
+div>p:nth-child(2){
+    color: olivedrab;
+    background-color:yellow ;
+}
