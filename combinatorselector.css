@@ -1,0 +1,26 @@
+/* Descendent selector
+section h1{
+    color:blueviolet;
+}
+section p{
+    color:green;
+}
+section h2{
+    color:aqua;
+}*/
+/*Child selector*/
+section>h1{
+    color:blueviolet;
+}
+section>p{
+    color:green;
+}
+div>h2{
+    color:aqua;
+}
+div>h1{
+    color:red;
+}
+p+h1{
+    background-color: blanchedalmond;
+}
